@@ -13,7 +13,7 @@ member-list:
     operator:
         color: '#dedede'
     selected:
-        color: '#fff'
+        color: '#cfbc99'
         background:
             top-line-color: '#3f3e4c'
             bottom-line-color: '#3f3e4c'
@@ -36,7 +36,7 @@ server-tree:
             color: '#ccc'
     selected:
         active:
-            color: '#fff'
+            color: '#cfbc99'
         inactive:
             color: '#eee'
         background:

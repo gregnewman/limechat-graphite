@@ -111,6 +111,11 @@ body.normal .event .time {
 body.normal .line[highlight=true] span.message {
     background-color: #cfbc99;
     color: #000;
+    margin: 0;
+}
+
+body.normal .line[highlight=true] .time {
+    color: #333;
 }
 
 body.normal .member {
@@ -192,6 +197,12 @@ body.normal .address {
 body.normal .highlight {
     color: #000;
     font-weight: bold;
+}
+
+body.normal .line[highlight=true] .sender {
+    background-color: #cfbc99;
+    padding: 0.4em;
+    color: #000;
 }
 
 /* nickname for text messages */
