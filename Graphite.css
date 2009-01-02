@@ -174,13 +174,16 @@ a {
 
 body.normal .line[type=action] .sender {
     font-style: italic;
+    color: #00d20e !important;
+    background-color: #2d2d2d;
 }
 
 body.normal .line[type=action] .message {
-    background: #2d2c37;
-    color: #ccc;
+    /*background: #2d2c37;*/
+    color: #00d20e;
     border-left: none;
     margin: 0 0 0 130px;
+    background-color: #2d2d2d;
 }
 
 body.normal .url {
@@ -218,7 +221,7 @@ body.normal .sender[type=normal][colornumber='0'] {
 }
 
 body.normal .sender[type=normal][colornumber='1'] {
-    color: blue;
+    color: #636aff;
 }
 
 body.normal .sender[type=normal][colornumber='2'] {
