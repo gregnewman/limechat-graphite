@@ -31,6 +31,10 @@ body.normal .text span {
     display: block;
 }
 
+body.normal .text span span {
+	display: inline;
+}
+
 body.normal .line {
     padding: 0;
     margin: 0;
